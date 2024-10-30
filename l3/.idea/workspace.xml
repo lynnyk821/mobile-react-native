@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed70c3a9-6493-4454-b00e-f980385987ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/app/add-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/add-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/add-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativewind.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewContactButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactFormScreen/NewContactScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactFormScreen/components/FormInputField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/ContactsScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/components/ContactList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/components/SearchField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state-managment/use-app-store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Contact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/app/phone-contact-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingScreen/LoadingScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewContactButtons/NewContactButtonsBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/hooks/useDatabase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/models/ContactCategoryModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/models/ContactModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repository/contact-repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/ContactByIdScreen/ContactScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/ContactByIdScreen/hooks/use-contact.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/hooks/use-contacts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/NewContactFormScreen/components/FormInputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/NewEmailContactScreen/NewEmailContactScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/NewPhoneContactScreen/NewPhoneContactScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/EmailContact.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../l1/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../l1/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../l1/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../l1/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../l2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../l2/.idea/vcs.xml" afterDir="false" />
@@ -25,6 +27,24 @@
       <change beforePath="$PROJECT_DIR$/../l2/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../l2/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../l2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../l2/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../l2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../l2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/add-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/add-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/add-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewContactButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContactFormScreen/NewContactScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/NewContactFormScreen/NewContactScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContactFormScreen/components/FormInputField.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContactsScreen/ContactsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/ContactsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContactsScreen/components/ContactList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/components/ContactList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContactsScreen/components/SearchField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContactsScreen/components/SearchField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state-managment/use-app-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state-managment/use-app-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/PhoneContact.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +54,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Dockerfile" />
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -53,6 +74,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Node.js.ormconfig.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/mnt/hardisk/Projects/Webstorm-Projects/mobile/l3&quot;,
@@ -67,11 +89,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/screens/ContactsScreen/components" />
-      <recent name="$PROJECT_DIR$/screens/Contacts" />
-      <recent name="$PROJECT_DIR$/screens/ContactForm" />
+      <recent name="$PROJECT_DIR$/src/components/NewContactButtons" />
+      <recent name="$PROJECT_DIR$/src/components/LoadingScreen" />
+      <recent name="$PROJECT_DIR$/src/screens/ContactByIdScreen/hooks" />
+      <recent name="$PROJECT_DIR$/src/screens/ContactsScreen/components" />
+      <recent name="$PROJECT_DIR$/src/database" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -97,7 +119,16 @@
       <workItem from="1729410991844" duration="10227000" />
       <workItem from="1729494873589" duration="2570000" />
       <workItem from="1729613873770" duration="6295000" />
-      <workItem from="1729668547136" duration="1746000" />
+      <workItem from="1729668547136" duration="10161000" />
+      <workItem from="1729683656490" duration="5098000" />
+      <workItem from="1729709450925" duration="2982000" />
+      <workItem from="1729759096744" duration="23452000" />
+      <workItem from="1729793015779" duration="12000" />
+      <workItem from="1730135907716" duration="13027000" />
+      <workItem from="1730151431852" duration="3730000" />
+      <workItem from="1730217446895" duration="7330000" />
+      <workItem from="1730284622489" duration="320000" />
+      <workItem from="1730292700536" duration="702000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,12 @@
-import {Contact} from "./Contact";
+import { PhoneContact } from "./PhoneContact";
 
 export type Store = {
-    contacts: Contact[],
-    setContacts: (contacts: Contact[]) => void,
+    contacts: PhoneContact[],
+    setContacts: (contacts: PhoneContact[]) => void,
+
+    contactId: number,
+    setContactId: (contactId: number) => void,
+
+    value: number,
+    notify: () => void,
 }

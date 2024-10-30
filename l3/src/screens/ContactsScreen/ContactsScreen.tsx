@@ -3,25 +3,28 @@ import { View } from 'react-native';
 
 import ContactList from "./components/ContactList";
 import SearchField from "./components/SearchField";
-import {useAppStore} from "../../state-managment/use-app-store";
+import {useContacts} from "./hooks/use-contacts";
 
 const ContactsScreen = () => {
+    const { contacts } = useContacts();
     const [search, setSearch] = useState('');
-    const { contacts } = useAppStore();
 
-    const sortedContacts = contacts.sort((a, b) => a.name.localeCompare(b.name));
-
-    const filteredContacts = sortedContacts.filter(contact =>
-        contact.name.toLowerCase().includes(search.toLowerCase())
-    );
+    const getHandledContacts = (contacts: any) => {
+        if(contacts === null) return;
+        return contacts
+            .filter((contact: { name: string; }) => contact.name.toLowerCase().includes(search.toLowerCase()))
+            .sort((a: { name: string; }, b: { name: any; }) => a.name.localeCompare(b.name));
+    }
 
     return (
-        <View className="flex-1 bg-white p-5">
-            <SearchField
-                value={search}
-                onChange={setSearch}
-            />
-            <ContactList contacts={filteredContacts}/>
+        <View className="flex-1 bg-white">
+            <View className={"flex-1 p-5"}>
+                <SearchField
+                    value={search}
+                    onChange={setSearch}
+                />
+                <ContactList contacts={getHandledContacts(contacts)} />
+            </View>
         </View>
     );
 };
